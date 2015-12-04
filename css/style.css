@@ -1,29 +1,69 @@
 body
 {
-  background-color: #e3e3e3;
+  background-image: url("./../img/football2.jpg") no-repeat;
   text-decoration-style: solid;
   font-family: sans-serif;
 }
 
 .wrap
 {
-  text-align:center;
   width: 70%;
   background: red;
   min-width:400px;
   margin: auto;
   overflow: hidden;
+}
 
+li
+{
+  display:inline;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+ul li a:hover
+{
+  text-decoration:underline;
+  color:blue;
+  font-size: 17px;
 }
 
 .content,aside
 {
   height:600px;
 }
+
+.content li
+{
+  display:list-item;
+  padding-right: 0;
+
+}
+
+form label
+{
+  display:block;
+}
+ul li textarea
+{
+  width:300px;
+  height:150px;
+}
+form ul
+{
+  list-style: none;
+  margin-bottom: 15px;
+  padding-left: 2;
+}
+
+form ul li
+{
+margin-bottom: 10px;
+}
+
+
 .content
 {
-  text-align: center;
-  width:80%;
+  width:100%;
   background-color:orange;
   float:left;
 }
@@ -31,18 +71,7 @@ body
 a
 {
   text-decoration: none;
-}
-aside
-{
-  width:20%;
-  background-color: green;
-  float:left;
-}
-
-aside ul
-{
-  list-style: none;
-  padding-left:0;
+  color: pink;
 }
 
 footer
