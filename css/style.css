@@ -1,79 +1,245 @@
 body
 {
-  background-image: url("./../img/football2.jpg") no-repeat;
-  text-decoration-style: solid;
   font-family: sans-serif;
 }
 
-.wrap
+div.wrap
 {
-  width: 70%;
-  background: red;
-  min-width:400px;
-  margin: auto;
-  overflow: hidden;
+  background :Lightgreen;
+  position:fixed;
+  width: 100%;
+  height:120px;
 }
 
-li
+header.fullhead
 {
+
+}
+
+header h1 a
+{
+  text-decoration: none;
+  color:black;
+}
+
+header h1
+{
+  background: url("./../img/goal.jpg") no-repeat;
+  width: 110px;
+  height: 59px;
+  margin-top: 30px;
+  text-indent: -9999px;
+  margin-left: 200px;
   display:inline;
-  padding-left: 50px;
-  padding-right: 20px;
-}
-ul li a:hover
-{
-  text-decoration:underline;
-  color:blue;
-}
-
-.content,aside
-{
-  height:600px;
-}
-
-.content li
-{
-  display:list-item;
-  padding-right: 0;
-
-}
-
-form label
-{
-  display:block;
-}
-ul li textarea
-{
-  width:300px;
-  height:150px;
-}
-form ul
-{
-  list-style: none;
-  margin-bottom: 15px;
-  padding-left: 2;
-}
-
-form ul li
-{
-margin-bottom: 10px;
-}
-
-
-.content
-{
-  width:100%;
-  background-color:orange;
   float:left;
 }
 
-a
+nav.menu
 {
-  text-decoration: none;
-  color: pink;
+  text-transform: capitalize;
+  float:right;
+  font-size: 26px;
+  margin-top: 40px;
+  margin-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-footer
+nav ul li
 {
-  clear:both;
+  display:inline;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+a:hover
+{
+   color:red;
+}
+
+div.service-box  ol li a:hover
+{
+  color:red;
+}
+
+ul li a
+{
+  text-decoration: none;
+  font-weight: bold;
+  color:black;
+}
+
+div.firstbox
+{
+  background: url("./../img/back2.jpg") no-repeat;
+  height:480px;
+}
+
+div.service-box
+{
+  background-color: #e3e3e3;
+  padding-top: 120px;
+  margin-top: 0px;
+  height:150px;
+}
+
+div.box2  ol li a
+{
+  text-decoration: none;
+  color:black;
+}
+
+div.box2  ol li::after
+{
+  content: ' /';
+}
+
+div.box2  ol li:last-child::after
+{
+  content: '';
+}
+
+h1
+{
+  text-transform: uppercase;
+}
+
+h3
+{
+  text-transform: uppercase;
+}
+
+div.box1 h1
+{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+div.box1
+{
+  float:left;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+div.box2
+{
+  float:right;
+  margin-top: 40px;
+  margin-right: 200px;
+}
+
+div.box2 ol li
+{
+  display:inline;
+}
+
+div.collage
+{
+  background-color:#e3e3e3;
+  height: 900px;
+}
+
+div.container_12
+{
+  margin:auto;
+  padding-top: 40px;
+}
+
+div.fbox
+{
+  padding-bottom: 20px;
+}
+
+div.fbox-desc h3
+{
+  text-decoration-color: grey;
+}
+
+span.subtitle
+{
+  padding-top: 20px;
+}
+
+div.fbox-desc p.sub
+{
+  color: grey;
+}
+
+div.fbox-desc
+{
+
+
+}
+
+img.aligncenter
+{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+div.heading-block h2
+{
+text-transform: uppercase;
+}
+
+div .heading-block
+{
+  margin-top: 30px;
+}
+
+
+p.sub
+{
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+div .heading-block
+{
+  text-align: center;
+}
+
+div.wrap-transfer
+{
+  background: #e3e3e3;
+}
+
+div.wrap-transfer a
+{
+  text-decoration: none;
+  color: grey;
+}
+
+div.wrap-transfer p
+{
+  font-size: 16px;
+}
+
+div.wrap-transfer a:hover
+{
+  text-decoration: none;
+  color: red;
+}
+
+div.fbox1 img
+{
+  margin-top: 60px;
+}
+
+div.fbox2 img
+{
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+p#tt
+{
+  font-weight: light;
+  text-align: center;
+  text-shadow: 5px;
 }
