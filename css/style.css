@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    min-width: 800px;
 }
 div.wrap {
     background: white;
@@ -54,7 +55,24 @@ div.firstbox {
     background: url("./../img/back2.jpg") no-repeat;
     height: 480px;
 }
-div.wrap-clubs {} div.service-box {
+div.hero {
+    background: url("./../img/hero.jpg") no-repeat;
+    height: 750px;
+}
+.hero-text h4{
+  margin-bottom:0px;
+}
+div.hero-text{
+    background: #e3e3e3;
+    padding-top: 20px;
+    height:120px;
+    font-weight: bold;
+    text-align: center;
+}
+div.wrap-clubs {
+  height:1100px;
+}
+div.service-box {
     background-color: #e3e3e3;
     padding-top: 120px;
     margin-top: 0px;
@@ -135,6 +153,7 @@ div .heading-block {
 }
 div.wrap-transfer {
     background: #e3e3e3;
+    height: 1000px;
 }
 div.wrap-transfer a {
     text-decoration: none;
@@ -143,21 +162,21 @@ div.wrap-transfer a {
 div.wrap-transfer p {
     font-size: 16px;
 }
+div.wrap-transfertalk{
+  margin-bottom: 70px;
+}
+div.papertalk{
+  margin-bottom: 40px;
+}
 div.wrap-transfer a:hover {
     text-decoration: none;
     color: red;
 }
-div.fbox1 img {
-    margin-top: 60px;
+div.fbox1 {
+
 }
 div.fbox2 img {
-    margin-top: 100px;
-    margin-left: 40px;
-}
-p#tt {
-    font-weight: light;
-    text-align: center;
-    text-shadow: 5px;
+
 }
 .wrap-footer {
     background-color: black;
@@ -176,6 +195,17 @@ li.list-item {
 ul li.list-ss {
     list-style: none;
 }
+ul.list-cc li{
+  list-style: none;
+  text-decoration: none;
+}
+ul.list-cc li a{
+  color: blue;
+}
+ul.list-cc li a:hover{
+  color: red;
+}
+
 li.list-ss {
     list-style: none;
     padding-bottom: 10px;
@@ -184,6 +214,5 @@ li.list-ss {
 #copy {
     text-align: justify;
     font-weight: bold;
-    font-style: italic;
     text-shadow: 5px;
 }
