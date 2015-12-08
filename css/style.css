@@ -8,9 +8,44 @@ div.wrap {
     width: 100%;
     height: 120px;
 }
+.first,.second,.third,.fourth
+{
+  background:#EBF4FA;
+}
+
+.first
+{
+  padding top:40px;
+  padding-bottom:60px;
+}
+.second
+{
+  padding top:60px;
+  padding-bottom: 60px;
+}
+
+.third
+{
+  padding top:60px;
+  padding-bottom: 60px;
+}
+
+.fourth
+{
+  padding top:40px;
+  padding-bottom: 60px;
+}
 div.wrap img {
+    padding-top: 20px;
     width: 400px;
     height: 300px;
+}
+p{
+  text-align:justify;
+}
+#Main-content{
+  padding-top: 40px;
+  text-align: center;
 }
 header h1 a {
     text-decoration: none;
@@ -51,26 +86,10 @@ ul li a {
     font-weight: bold;
     color: black;
 }
-div.firstbox {
-    background: url("./../img/back2.jpg") no-repeat;
-    height: 480px;
-}
+
 div.hero {
     background: url("./../img/hero.jpg") no-repeat;
-    height: 750px;
-}
-.hero-text h4{
-  margin-bottom:0px;
-}
-div.hero-text{
-    background: #e3e3e3;
-    padding-top: 20px;
-    height:120px;
-    font-weight: bold;
-    text-align: center;
-}
-div.wrap-clubs {
-  height:1100px;
+    height:452px;
 }
 div.service-box {
     background-color: #e3e3e3;
@@ -78,9 +97,20 @@ div.service-box {
     margin-top: 0px;
     height: 150px;
 }
+div.box2 ol li  {
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: -10px;
+}
 div.box2 ol li a {
     text-decoration: none;
+    font-size: 18px;
+    padding:-10px;
     color: black;
+}
+#subcontent
+{
+ font-size: 18px;
 }
 div.box2 ol li::after {
     content: ' /';
@@ -96,9 +126,9 @@ h3 {
 }
 div.box1 h1 {
     font-size: 25px;
-    padding-bottom: 10px;
 }
 div.box1 {
+    padding-top: 25px;
     float: left;
     margin-top: 20px;
     margin-left: 60px;
@@ -111,13 +141,9 @@ div.box2 {
 div.box2 ol li {
     display: inline;
 }
-div.collage {
-    background-color: #e3e3e3;
-    height: 900px;
-}
+
 div.container_12 {
     margin: auto;
-    padding-top: 40px;
 }
 div.fbox {
     padding-bottom: 20px;
@@ -151,10 +177,6 @@ p.sub {
 div .heading-block {
     text-align: center;
 }
-div.wrap-transfer {
-    background: #e3e3e3;
-    height: 1000px;
-}
 div.wrap-transfer a {
     text-decoration: none;
     color: grey;
@@ -162,12 +184,7 @@ div.wrap-transfer a {
 div.wrap-transfer p {
     font-size: 16px;
 }
-div.wrap-transfertalk{
-  margin-bottom: 70px;
-}
-div.papertalk{
-  margin-bottom: 40px;
-}
+
 div.wrap-transfer a:hover {
     text-decoration: none;
     color: red;
@@ -178,9 +195,17 @@ div.fbox1 {
 div.fbox2 img {
 
 }
-.wrap-footer {
+.fifth {
     background-color: black;
     color: white;
+}
+.alpha
+{
+  padding-left: 10px;
+}
+.sixth
+{
+  background-color:#EBF4FA;
 }
 li.list-item {
     list-style: none;
