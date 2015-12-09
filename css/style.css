@@ -3,11 +3,25 @@ body {
     min-width: 800px;
 }
 div.wrap {
-    background: white;
-    position: fixed;
-    width: 100%;
-    height: 120px;
+    background: skyblue;
+    height:100px;
 }
+
+div.header h1 {
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li
+{
+
+}
+
 .first,.second,.third,.fourth
 {
   background:#EBF4FA;
@@ -35,11 +49,6 @@ div.wrap {
   padding top:40px;
   padding-bottom: 60px;
 }
-div.wrap img {
-    padding-top: 20px;
-    width: 400px;
-    height: 300px;
-}
 p{
   text-align:justify;
 }
@@ -47,28 +56,11 @@ p{
   padding-top: 40px;
   text-align: center;
 }
-header h1 a {
-    text-decoration: none;
-    color: black;
-}
-header h1 {
-    background: url("./../img/goal.jpg") no-repeat;
-    width: 110px;
-    height: 59px;
-    margin-top: 30px;
-    text-indent: -9999px;
-    margin-left: 200px;
-    display: inline;
-    float: left;
-}
+
 nav.menu {
     text-transform: capitalize;
-    float: right;
-    font-size: 26px;
-    margin-top: 40px;
-    margin-right: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-top: 18px;
+    font-size: 18px;
 }
 nav ul li {
     display: inline;
@@ -89,28 +81,31 @@ ul li a {
 
 div.hero {
     background: url("./../img/hero.jpg") no-repeat;
+    margin-top: 30px;
     height:452px;
 }
-div.service-box {
-    background-color: #e3e3e3;
-    padding-top: 120px;
-    margin-top: 0px;
-    height: 150px;
+
+.service-box
+{
+  background:#e3e3e3;
+}
+
+.box1 h1
+{
+  padding-top:0px;
 }
 div.box2 ol li  {
     text-decoration: none;
-    font-size: 18px;
-    padding-left: -10px;
+    font-size: 16px;
 }
 div.box2 ol li a {
     text-decoration: none;
-    font-size: 18px;
-    padding:-10px;
+    font-size: 16px;
     color: black;
 }
 #subcontent
 {
- font-size: 18px;
+ font-size: 16px;
 }
 div.box2 ol li::after {
     content: ' /';
@@ -125,18 +120,20 @@ h3 {
     text-transform: uppercase;
 }
 div.box1 h1 {
-    font-size: 25px;
+    font-size: 22px;
 }
 div.box1 {
-    padding-top: 25px;
     float: left;
-    margin-top: 20px;
-    margin-left: 60px;
+    padding-top: 15px;
+    padding-down: 10px;
+    margin-top: 10px;
+    margin-left:30px;
+    margin-bottom: 15px;
 }
 div.box2 {
     float: right;
     margin-top: 40px;
-    margin-right: 200px;
+    margin-right:80px;
 }
 div.box2 ol li {
     display: inline;
@@ -201,7 +198,7 @@ div.fbox2 img {
 }
 .alpha
 {
-  padding-left: 10px;
+  padding-left: 15px;
 }
 .sixth
 {
