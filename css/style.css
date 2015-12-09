@@ -1,62 +1,49 @@
 body {
     font-family: sans-serif;
+    background: #191919;
     min-width: 800px;
 }
 div.wrap {
-    background: skyblue;
-    height:100px;
+    background: black;
+    height: 100px;
 }
-
 div.header h1 {
-  padding-left: 30px;
-  padding-top: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
 }
-
 header h1 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
-
-.menu li
-{
-
+.menu li {} .first,
+.second,
+.third,
+.fourth {
+    background: #EBF4FA;
 }
-
-.first,.second,.third,.fourth
-{
-  background:#EBF4FA;
+.first {
+    padding top: 40px;
+    padding-bottom: 60px;
 }
-
-.first
-{
-  padding top:40px;
-  padding-bottom:60px;
+.second {
+    padding top: 60px;
+    padding-bottom: 60px;
 }
-.second
-{
-  padding top:60px;
-  padding-bottom: 60px;
+.third {
+    padding top: 60px;
+    padding-bottom: 60px;
 }
-
-.third
-{
-  padding top:60px;
-  padding-bottom: 60px;
+.fourth {
+    padding top: 40px;
+    padding-bottom: 60px;
 }
-
-.fourth
-{
-  padding top:40px;
-  padding-bottom: 60px;
+p {
+    text-align: justify;
 }
-p{
-  text-align:justify;
+#Main-content {
+    padding-top: 40px;
+    text-align: center;
 }
-#Main-content{
-  padding-top: 40px;
-  text-align: center;
-}
-
 nav.menu {
     text-transform: capitalize;
     padding-top: 18px;
@@ -76,25 +63,20 @@ div.service-box ol li a:hover {
 ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: white;
 }
-
 div.hero {
     background: url("./../img/hero.jpg") no-repeat;
     margin-top: 30px;
-    height:452px;
+    height: 452px;
 }
-
-.service-box
-{
-  background:#e3e3e3;
+.service-box {
+    background: #EBF4FA;
 }
-
-.box1 h1
-{
-  padding-top:0px;
+.box1 h1 {
+    padding-top: 0px;
 }
-div.box2 ol li  {
+div.box2 ol li {
     text-decoration: none;
     font-size: 16px;
 }
@@ -103,9 +85,8 @@ div.box2 ol li a {
     font-size: 16px;
     color: black;
 }
-#subcontent
-{
- font-size: 16px;
+#subcontent {
+    font-size: 16px;
 }
 div.box2 ol li::after {
     content: ' /';
@@ -127,18 +108,17 @@ div.box1 {
     padding-top: 15px;
     padding-down: 10px;
     margin-top: 10px;
-    margin-left:30px;
+    margin-left: 30px;
     margin-bottom: 15px;
 }
 div.box2 {
     float: right;
     margin-top: 40px;
-    margin-right:80px;
+    margin-right: 80px;
 }
 div.box2 ol li {
     display: inline;
 }
-
 div.container_12 {
     margin: auto;
 }
@@ -181,28 +161,19 @@ div.wrap-transfer a {
 div.wrap-transfer p {
     font-size: 16px;
 }
-
 div.wrap-transfer a:hover {
     text-decoration: none;
     color: red;
 }
-div.fbox1 {
-
-}
-div.fbox2 img {
-
-}
-.fifth {
+div.fbox1 {} div.fbox2 img {} .fifth {
     background-color: black;
     color: white;
 }
-.alpha
-{
-  padding-left: 15px;
+.alpha {
+    padding-left: 15px;
 }
-.sixth
-{
-  background-color:#EBF4FA;
+.sixth {
+    background-color: #EBF4FA;
 }
 li.list-item {
     list-style: none;
@@ -217,17 +188,16 @@ li.list-item {
 ul li.list-ss {
     list-style: none;
 }
-ul.list-cc li{
-  list-style: none;
-  text-decoration: none;
+ul.list-cc li {
+    list-style: none;
+    text-decoration: none;
 }
-ul.list-cc li a{
-  color: blue;
+ul.list-cc li a {
+    color: blue;
 }
-ul.list-cc li a:hover{
-  color: red;
+ul.list-cc li a:hover {
+    color: red;
 }
-
 li.list-ss {
     list-style: none;
     padding-bottom: 10px;
